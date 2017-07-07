@@ -31,11 +31,9 @@ Note: Currently, only broadcast via ipv4 addresses is supported, ipv6 support co
 
 All options and their behaviors are described in the 'Usage' section below.
 
-## Installation
+## Build
 
-## Build from Source
-
-### Linux, OSX, BSD
+### Linux, MacOS, BSD
 
 Simple: `clone` Abra, run `make` (GNU make) in the project root directory.
 
