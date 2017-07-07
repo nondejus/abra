@@ -2,7 +2,7 @@
 
 Send a magic packet.
 
-Abra is a multi-platform command-line program that sends a magic packet to a computer on the network, waking it from a sleep/powered-off state.
+Abra is a multi-platform command-line tool that sends a magic packet to a computer on the network, waking it from a sleep/powered-off state.
 
 Specify the MAC address of the target computer when you run Abra, and a magic packet will be constructed and sent, waking up that (ethernet connected, wake-on-lan supporting) computer:
 
