@@ -1,10 +1,10 @@
-# Abra
+# abra
 
 Send a magic packet.
 
-Abra is a multi-platform command-line tool that sends a magic packet to a computer on the network, waking it from a sleep/powered-off state.
+abra is a multi-platform command-line tool that sends a magic packet to a computer on the network, waking it from a sleep/powered-off state.
 
-Specify the MAC address of the target computer when you run Abra, and a magic packet will be constructed and sent, waking up that (ethernet connected, wake-on-lan supporting) computer:
+Specify the MAC address of the target computer when you run abra, and a magic packet will be constructed and sent, waking up that (ethernet connected, wake-on-lan supporting) computer:
 
 ```
 abra E9:2B:99:3C:00:15
@@ -35,7 +35,7 @@ All options and their behaviors are described in the 'Usage' section below.
 
 ### Linux, MacOS, BSD
 
-Simple: `clone` Abra, run `make` (GNU make) in the project root directory.
+Simple: `clone` abra, run `make` (GNU make) in the project root directory.
 
 The resulting binary **'abra'** will be located in the project root directory.
 
@@ -43,14 +43,14 @@ The resulting binary **'abra'** will be located in the project root directory.
 
 Building on Windows requires the *MinGW* compiler, and `make` from *MSYS* **(not mingw32-make)**.
 
-The same procedure applies as on *NIX: `clone` Abra, run `make` in the project root directory.
+The same procedure applies as on *NIX: `clone` abra, run `make` in the project root directory.
 
 The resulting binary **'abra.exe'** will be located in the project root directory.
 
 ## Usage
 
 ```
-Abra - Send a magic packet.
+abra - Send a magic packet.
 
 Usage:
   abra [-hvI] [-i ip-address] [-p port] mac-address

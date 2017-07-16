@@ -27,7 +27,7 @@
 // UNUSED constant to quiet compiler warnings.
 #define UNUSED __attribute__((unused))
 
-#define BUILD_NAME "Abra"
+#define BUILD_NAME "abra"
 #define BUILD_VERSION "1.0"
 #define BUILD_DATE __DATE__
 #define BUILD_TIME __TIME__

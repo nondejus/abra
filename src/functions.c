@@ -100,7 +100,7 @@ void
 help(void)
 {
     puts("\
-Abra - Send a magic packet.\n\
+abra - Send a magic packet.\n\
 \n\
 Usage:\n\
   abra [-hvI] [-i ip-address] [-p port] mac-address\n\
