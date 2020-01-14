@@ -7,22 +7,22 @@ abra is a multi-platform command-line tool that sends a magic packet to a comput
 Specify the MAC address of the target computer when you run abra, and a magic packet will be constructed and sent, waking up that (ethernet connected, wake-on-lan supporting) computer:
 
 ```
-abra E9:2B:99:3C:00:15
+abra 9B:54:88:53:53:05
 ```
 
 Additional command-line options can be used to specify a network broadcast address and port number to route the packet:
 
 ```
-abra -i 192.168.1.255 -p 9 E9:2B:99:3C:00:15
+abra -i 192.168.1.255 -p 9 9B:54:88:53:53:05
 ```
 
 Example run:
 
 ```
-abra -i 192.168.1.255 -V E9:2B:99:3C:00:15
+abra -i 192.168.1.255 -V 9B:54:88:53:53:05
 abra: magic packet sent!
 Summary:
-  Target: E9:2B:99:3C:00:15
+  Target: 9B:54:88:53:53:05
   Broadcast Route: 192.168.1.255
   Port Number: 7
 ```
@@ -71,5 +71,5 @@ Options:
   -V, --verbose               Display a detailed summary on success.
 
 Example:
-  abra -i 192.168.1.255 -p 9 E9:2B:99:3C:00:15
+  abra -i 192.168.1.255 -p 9 9B:54:88:53:53:05
 ```
